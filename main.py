@@ -106,6 +106,7 @@ def main():
             clear()
             banner()
             info("Retreiving clients list")
+            print()
             try:
                 liste = get_clients_list()
             except requests.ConnectionError:
