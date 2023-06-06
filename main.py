@@ -5,7 +5,7 @@ import requests
 import sys
 import os
 
-HOST = "http://127.0.0.1:8080/"
+HOST = "https://remotewifi-master.piasco.repl.co/"
 
 def info(msg):
     if msg[0] == '\r':
